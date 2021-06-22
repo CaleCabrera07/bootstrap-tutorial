@@ -1,0 +1,30 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+/* SCROLL BAR */
+body::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #eee;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
